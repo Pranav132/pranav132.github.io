@@ -1392,7 +1392,9 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-  background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+  background: #151515
+    url(https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+    no-repeat center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
