@@ -11,7 +11,7 @@ document.querySelector('.Navbar__Link-toggle')
 
 
   // projects carousel
-var swiper = new Swiper('.blog-slider', {
+var swiper = new Swiper('.project', {
     spaceBetween: 30,
     effect: 'fade',
     loop: true,
@@ -20,7 +20,7 @@ var swiper = new Swiper('.blog-slider', {
     },
     // autoHeight: true,
     pagination: {
-      el: '.blog-slider__pagination',
+      el: '.project__pagination',
       clickable: true,
     }
   });
